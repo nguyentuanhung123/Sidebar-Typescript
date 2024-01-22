@@ -45,6 +45,8 @@ const Sidebar: FC = () => {
 
     const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
+    const [isActive, setIsActive] = useState(false);
+
     const showSidebar = () => {
         setIsSidebarVisible(!isSidebarVisible);
     }
